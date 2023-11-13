@@ -4,12 +4,7 @@
   "description": "Utilities for jitsi-meet-electron project",
   "main": "index.js",
   "scripts": {
-    "validate": "npm ls",
-    "install": "node install.js",
-    "node-gyp-build": "node-gyp-build",
-    "prebuild-win32-x86": "prebuildify -t 16.0.0 --napi --strip",
-    "prebuild-win32-x64": "prebuildify -t 16.0.0 --napi --strip",
-    "lint": "jshint ."
+    "validate": "npm ls"
   },
   "repository": "https://github.com/jitsi/jitsi-meet-electron-sdk",
   "keywords": [
@@ -23,7 +18,6 @@
   "author": "",
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
-  "gypfile": false,
   "binary": {
     "napi_versions": [
       3
